@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/public/css/styles.css">  
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title> <%= title %> </title> 
+
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="/public/img/logo1.png" alt="">
+            </div>
+
+            <span class="logo_name">TrackIT</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Content</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Analytics</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Like</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-comments"></i>
+                    <span class="link-name">Comment</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-share"></i>
+                    <span class="link-name">Share</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <br>
+        <br>
+        
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+            <img src="/public/img/user.png" alt="">
+        </div>
+
+        <div class="dash-content">
+    
+            <div class="container">
+            
+
+                <div class="card text-bg-primary mb-3" style="max-width: 70rem; border-width: 0.2cap;">
+                    <div class="card-header">Please declare your preference in the following courses:</div>
+                    <div class="card-body" style="background-color: white; color: black;">
+                  
+                <div class="activity-data">
+                    <form>
+
+                        <fieldset>
+                            <label for="course-1" class="form-label">Information Security</label>
+                            <div class="course-1">
+                              <input type="radio" class="radio" name="x" value="1" id="z.1" />
+                              <label for="z.1">1</label>
+                              <input type="radio" class="radio" name="x" value="2" id="z.2" />
+                              <label for="z.2">2</label>
+                              <input type="radio" class="radio" name="x" value="3" id="z.3"/>
+                              <label for="z.3">3</label>
+                              <input type="radio" class="radio" name="x" value="4" id="z.4"/>
+                              <label for="z.4">4</label>
+                              <input type="radio" class="radio" name="x" value="5" id="z.5"/>
+                              <label for="z.5">5</label>
+                              <input type="radio" class="radio" name="x" value="6" id="z.6"/>
+                              <label for="z.6">6</label>
+                              <input type="radio" class="radio" name="x" value="7" id="z.7"/>
+                              <label for="z.7">7</label>
+                              <input type="radio" class="radio" name="x" value="8" id="z.8"/>
+                              <label for="z.8">8</label>
+                              <input type="radio" class="radio" name="x" value="9" id="z.9"/>
+                              <label for="z.9">9</label>
+                              <input type="radio" class="radio" name="x" value="10" id="z.10"/>
+                              <label for="z.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-2" class="form-label">Mobile Application Development</label>
+                            <div class="course-2">
+                              <input type="radio" class="radio" name="a" value="1" id="a.1" />
+                              <label for="a.1">1</label>
+                              <input type="radio" class="radio" name="a" value="2" id="a.2" />
+                              <label for="a.2">2</label>
+                              <input type="radio" class="radio" name="a" value="3" id="a.3"/>
+                              <label for="a.3">3</label>
+                              <input type="radio" class="radio" name="a" value="4" id="a.4"/>
+                              <label for="a.4">4</label>
+                              <input type="radio" class="radio" name="a" value="5" id="a.5"/>
+                              <label for="a.5">5</label>
+                              <input type="radio" class="radio" name="a" value="6" id="a.6"/>
+                              <label for="a.6">6</label>
+                              <input type="radio" class="radio" name="a" value="7" id="a.7"/>
+                              <label for="a.7">7</label>
+                              <input type="radio" class="radio" name="a" value="8" id="a.8"/>
+                              <label for="a.8">8</label>
+                              <input type="radio" class="radio" name="a" value="9" id="a.9"/>
+                              <label for="a.9">9</label>
+                              <input type="radio" class="radio" name="a" value="10" id="a.10"/>
+                              <label for="a.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-3" class="form-label">Game Design and Development</label>
+                            <div class="course-3">
+                              <input type="radio" class="radio" name="b" value="1" id="b.1" />
+                              <label for="b.1">1</label>
+                              <input type="radio" class="radio" name="b" value="2" id="b.2" />
+                              <label for="b.2">2</label>
+                              <input type="radio" class="radio" name="b" value="3" id="b.3"/>
+                              <label for="b.3">3</label>
+                              <input type="radio" class="radio" name="b" value="4" id="b.4"/>
+                              <label for="b.4">4</label>
+                              <input type="radio" class="radio" name="b" value="5" id="b.5"/>
+                              <label for="b.5">5</label>
+                              <input type="radio" class="radio" name="b" value="6" id="b.6"/>
+                              <label for="b.6">6</label>
+                              <input type="radio" class="radio" name="b" value="7" id="b.7"/>
+                              <label for="b.7">7</label>
+                              <input type="radio" class="radio" name="b" value="8" id="b.8"/>
+                              <label for="b.8">8</label>
+                              <input type="radio" class="radio" name="b" value="9" id="b.9"/>
+                              <label for="b.9">9</label>
+                              <input type="radio" class="radio" name="b" value="10" id="b.10"/>
+                              <label for="b.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-4" class="form-label">Machine Learning</label>
+                            <div class="course-4">
+                              <input type="radio" class="radio" name="c" value="1" id="c.1" />
+                              <label for="c.1">1</label>
+                              <input type="radio" class="radio" name="c" value="2" id="c.2" />
+                              <label for="c.2">2</label>
+                              <input type="radio" class="radio" name="c" value="3" id="c.3"/>
+                              <label for="c.3">3</label>
+                              <input type="radio" class="radio" name="c" value="4" id="c.4"/>
+                              <label for="c.4">4</label>
+                              <input type="radio" class="radio" name="c" value="5" id="c.5"/>
+                              <label for="c.5">5</label>
+                              <input type="radio" class="radio" name="c" value="6" id="c.6"/>
+                              <label for="c.6">6</label>
+                              <input type="radio" class="radio" name="c" value="7" id="c.7"/>
+                              <label for="c.7">7</label>
+                              <input type="radio" class="radio" name="c" value="8" id="c.8"/>
+                              <label for="c.8">8</label>
+                              <input type="radio" class="radio" name="c" value="9" id="c.9"/>
+                              <label for="c.9">9</label>
+                              <input type="radio" class="radio" name="c" value="10" id="c.10"/>
+                              <label for="c.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-5" class="form-label">Deep Learning</label>
+                            <div class="course-5">
+                              <input type="radio" class="radio" name="d" value="1" id="d.1" />
+                              <label for="d.1">1</label>
+                              <input type="radio" class="radio" name="d" value="2" id="d.2" />
+                              <label for="d.2">2</label>
+                              <input type="radio" class="radio" name="d" value="3" id="d.3"/>
+                              <label for="d.3">3</label>
+                              <input type="radio" class="radio" name="d" value="4" id="d.4"/>
+                              <label for="d.4">4</label>
+                              <input type="radio" class="radio" name="d" value="5" id="d.5"/>
+                              <label for="d.5">5</label>
+                              <input type="radio" class="radio" name="d" value="6" id="d.6"/>
+                              <label for="d.6">6</label>
+                              <input type="radio" class="radio" name="d" value="7" id="d.7"/>
+                              <label for="d.7">7</label>
+                              <input type="radio" class="radio" name="d" value="8" id="d.8"/>
+                              <label for="d.8">8</label>
+                              <input type="radio" class="radio" name="d" value="9" id="d.9"/>
+                              <label for="d.9">9</label>
+                              <input type="radio" class="radio" name="d" value="10" id="d.10"/>
+                              <label for="d.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-6" class="form-label">Nature-Inspired Computing</label>
+                            <div class="course-6">
+                              <input type="radio" class="radio" name="e" value="1" id="e.1" />
+                              <label for="e.1">1</label>
+                              <input type="radio" class="radio" name="e" value="2" id="e.2" />
+                              <label for="e.2">2</label>
+                              <input type="radio" class="radio" name="e" value="3" id="e.3"/>
+                              <label for="e.3">3</label>
+                              <input type="radio" class="radio" name="e" value="4" id="e.4"/>
+                              <label for="e.4">4</label>
+                              <input type="radio" class="radio" name="a" value="5" id="e.5"/>
+                              <label for="e.5">5</label>
+                              <input type="radio" class="radio" name="e" value="6" id="e.6"/>
+                              <label for="e.6">6</label>
+                              <input type="radio" class="radio" name="e" value="7" id="e.7"/>
+                              <label for="e.7">7</label>
+                              <input type="radio" class="radio" name="e" value="8" id="e.8"/>
+                              <label for="e.8">8</label>
+                              <input type="radio" class="radio" name="e" value="9" id="e.9"/>
+                              <label for="e.9">9</label>
+                              <input type="radio" class="radio" name="e" value="10" id="e.10"/>
+                              <label for="e.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-7" class="form-label">Innovation & Entrepreneurship in IT</label>
+                            <div class="course-7">
+                              <input type="radio" class="radio" name="f" value="1" id="f.1" />
+                              <label for="f.1">1</label>
+                              <input type="radio" class="radio" name="f" value="2" id="f.2" />
+                              <label for="f.2">2</label>
+                              <input type="radio" class="radio" name="f" value="3" id="f.3"/>
+                              <label for="f.3">3</label>
+                              <input type="radio" class="radio" name="f" value="4" id="f.4"/>
+                              <label for="f.4">4</label>
+                              <input type="radio" class="radio" name="f" value="5" id="f.5"/>
+                              <label for="f.5">5</label>
+                              <input type="radio" class="radio" name="f" value="6" id="f.6"/>
+                              <label for="f.6">6</label>
+                              <input type="radio" class="radio" name="f" value="7" id="f.7"/>
+                              <label for="f.7">7</label>
+                              <input type="radio" class="radio" name="f" value="8" id="f.8"/>
+                              <label for="f.8">8</label>
+                              <input type="radio" class="radio" name="f" value="9" id="f.9"/>
+                              <label for="f.9">9</label>
+                              <input type="radio" class="radio" name="f" value="10" id="f.10"/>
+                              <label for="f.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-8" class="form-label">Social Media and Networks</label>
+                            <div class="course-8">
+                              <input type="radio" class="radio" name="g" value="1" id="g.1" />
+                              <label for="g.1">1</label>
+                              <input type="radio" class="radio" name="g" value="2" id="g.2" />
+                              <label for="g.2">2</label>
+                              <input type="radio" class="radio" name="g" value="3" id="g.3"/>
+                              <label for="g.3">3</label>
+                              <input type="radio" class="radio" name="g" value="4" id="g.4"/>
+                              <label for="g.4">4</label>
+                              <input type="radio" class="radio" name="g" value="5" id="g.5"/>
+                              <label for="g.5">5</label>
+                              <input type="radio" class="radio" name="g" value="6" id="g.6"/>
+                              <label for="g.6">6</label>
+                              <input type="radio" class="radio" name="g" value="7" id="g.7"/>
+                              <label for="g.7">7</label>
+                              <input type="radio" class="radio" name="g" value="8" id="g.8"/>
+                              <label for="g.8">8</label>
+                              <input type="radio" class="radio" name="g" value="9" id="g.9"/>
+                              <label for="g.9">9</label>
+                              <input type="radio" class="radio" name="g" value="10" id="g.10"/>
+                              <label for="g.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-9" class="form-label">E-Commerce and Digital Markets</label>
+                            <div class="course-9">
+                              <input type="radio" class="radio" name="i" value="1" id="i.1" />
+                              <label for="i.1">1</label>
+                              <input type="radio" class="radio" name="i" value="2" id="i.2" />
+                              <label for="i.2">2</label>
+                              <input type="radio" class="radio" name="i" value="3" id="i.3"/>
+                              <label for="i.3">3</label>
+                              <input type="radio" class="radio" name="i" value="4" id="i.4"/>
+                              <label for="i.4">4</label>
+                              <input type="radio" class="radio" name="i" value="5" id="i.5"/>
+                              <label for="i.5">5</label>
+                              <input type="radio" class="radio" name="i" value="6" id="i.6"/>
+                              <label for="i.6">6</label>
+                              <input type="radio" class="radio" name="i" value="7" id="i.7"/>
+                              <label for="i.7">7</label>
+                              <input type="radio" class="radio" name="i" value="8" id="i.8"/>
+                              <label for="i.8">8</label>
+                              <input type="radio" class="radio" name="i" value="9" id="i.9"/>
+                              <label for="i.9">9</label>
+                              <input type="radio" class="radio" name="i" value="10" id="i.10"/>
+                              <label for="i.10">10</label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <label for="course-10" class="form-label">IT Strategy in Business</label>
+                            <div class="course-10">
+                              <input type="radio" class="radio" name="l" value="1" id="l.1" />
+                              <label for="l.1">1</label>
+                              <input type="radio" class="radio" name="l" value="2" id="l.2" />
+                              <label for="l.2">2</label>
+                              <input type="radio" class="radio" name="l" value="3" id="l.3"/>
+                              <label for="l.3">3</label>
+                              <input type="radio" class="radio" name="l" value="4" id="l.4"/>
+                              <label for="l.4">4</label>
+                              <input type="radio" class="radio" name="l" value="5" id="l.5"/>
+                              <label for="l.5">5</label>
+                              <input type="radio" class="radio" name="l" value="6" id="l.6"/>
+                              <label for="l.6">6</label>
+                              <input type="radio" class="radio" name="l" value="7" id="l.7"/>
+                              <label for="l.7">7</label>
+                              <input type="radio" class="radio" name="l" value="8" id="l.8"/>
+                              <label for="l.8">8</label>
+                              <input type="radio" class="radio" name="l" value="9" id="l.9"/>
+                              <label for="l.9">9</label>
+                              <input type="radio" class="radio" name="l" value="10" id="l.10"/>
+                              <label for="l.10">10</label>
+                            </div>
+                          </fieldset>
+                        
+
+                        <br>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/public/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
